@@ -1,0 +1,197 @@
+{
+  "nodes": [
+    {
+      "id": "main",
+      "type": "file",
+      "file": "知识网络/真题驱动/00-川大855真题驱动复习总图.md",
+      "x": 0,
+      "y": 0,
+      "width": 600,
+      "height": 220
+    },
+    {
+      "id": "m0",
+      "type": "text",
+      "text": "## 连接与疲劳\n螺栓组→预紧/刚度→防滑/分离→强度\n循环参数→加载线→疲劳与屈服\n[[05-螺栓连接]] · [[02-疲劳强度与接触强度]]",
+      "x": -480,
+      "y": 340,
+      "width": 480,
+      "height": 230,
+      "color": "1"
+    },
+    {
+      "id": "m1",
+      "type": "text",
+      "text": "## 滚动轴承\n受力→派生轴向力→X/Y→寿命\n新增：可靠度、型号比较、支承刚度\n[[14-滚动轴承]]",
+      "x": 40,
+      "y": 340,
+      "width": 480,
+      "height": 230,
+      "color": "1"
+    },
+    {
+      "id": "m2",
+      "type": "text",
+      "text": "## 推力滑动轴承\n环形面积→p；平均速度→pv\n设计取大下限，校核两项都满足\n[[15-滑动轴承]]",
+      "x": 560,
+      "y": 340,
+      "width": 480,
+      "height": 230,
+      "color": "1"
+    },
+    {
+      "id": "m3",
+      "type": "text",
+      "text": "## 传动与功率\n各级效率→P/n/T→齿轮力\n旋向/转向/力向→中间轴抵消\n[[19-减速器与综合设计]]",
+      "x": -480,
+      "y": 640,
+      "width": 480,
+      "height": 230,
+      "color": "1"
+    },
+    {
+      "id": "m4",
+      "type": "text",
+      "text": "## 结构实现\n定位、压紧、装拆、密封、热伸长\n新增：滑动轴承轴瓦与供油结构\n[[13-轴的结构与强度]]",
+      "x": 40,
+      "y": 640,
+      "width": 480,
+      "height": 230,
+      "color": "1"
+    },
+    {
+      "id": "m5",
+      "type": "text",
+      "text": "## 小题清单\n齿轮参数；带与链；蜗杆与润滑\n键销；材料代号；联轴器补偿\n只学已考规则及条件",
+      "x": 560,
+      "y": 640,
+      "width": 480,
+      "height": 230,
+      "color": "3"
+    },
+    {
+      "id": "d0",
+      "type": "file",
+      "file": "知识网络/真题驱动/05-新增年份考点与必练模型.md",
+      "x": -480,
+      "y": 1030,
+      "width": 480,
+      "height": 230
+    },
+    {
+      "id": "d1",
+      "type": "file",
+      "file": "知识网络/真题驱动/04-新增资料去重与年份覆盖.md",
+      "x": 40,
+      "y": 1030,
+      "width": 480,
+      "height": 230
+    },
+    {
+      "id": "d2",
+      "type": "file",
+      "file": "知识网络/真题驱动/06-附带解析纠错与使用边界.md",
+      "x": 560,
+      "y": 1030,
+      "width": 480,
+      "height": 230
+    },
+    {
+      "id": "d3",
+      "type": "file",
+      "file": "知识网络/真题驱动/02-进阶变式与预测边界.md",
+      "x": -480,
+      "y": 1330,
+      "width": 480,
+      "height": 230
+    },
+    {
+      "id": "d4",
+      "type": "file",
+      "file": "知识网络/真题驱动/03-两周模型训练与验收.md",
+      "x": 40,
+      "y": 1330,
+      "width": 480,
+      "height": 230
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "main",
+      "fromSide": "bottom",
+      "toNode": "m0",
+      "toSide": "top"
+    },
+    {
+      "id": "e1",
+      "fromNode": "main",
+      "fromSide": "bottom",
+      "toNode": "m1",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "main",
+      "fromSide": "bottom",
+      "toNode": "m2",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "main",
+      "fromSide": "bottom",
+      "toNode": "m3",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "main",
+      "fromSide": "bottom",
+      "toNode": "m4",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "main",
+      "fromSide": "bottom",
+      "toNode": "m5",
+      "toSide": "top"
+    },
+    {
+      "id": "l0",
+      "fromNode": "m0",
+      "fromSide": "bottom",
+      "toNode": "d0",
+      "toSide": "top"
+    },
+    {
+      "id": "l1",
+      "fromNode": "m1",
+      "fromSide": "bottom",
+      "toNode": "d1",
+      "toSide": "top"
+    },
+    {
+      "id": "l2",
+      "fromNode": "m2",
+      "fromSide": "bottom",
+      "toNode": "d2",
+      "toSide": "top"
+    },
+    {
+      "id": "l3",
+      "fromNode": "m3",
+      "fromSide": "bottom",
+      "toNode": "d3",
+      "toSide": "top"
+    },
+    {
+      "id": "l4",
+      "fromNode": "m4",
+      "fromSide": "bottom",
+      "toNode": "d4",
+      "toSide": "top"
+    }
+  ]
+}

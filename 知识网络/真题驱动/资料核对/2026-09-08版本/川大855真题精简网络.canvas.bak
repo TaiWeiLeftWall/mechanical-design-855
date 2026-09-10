@@ -1,0 +1,148 @@
+{
+  "nodes": [
+    {
+      "id": "main",
+      "type": "file",
+      "file": "知识网络/真题驱动/00-川大855真题驱动复习总图.md",
+      "x": 0,
+      "y": 0,
+      "width": 580,
+      "height": 240
+    },
+    {
+      "id": "g0",
+      "type": "text",
+      "text": "## 核心计算\n螺栓：预紧—抗滑—强度—疲劳\n轴承：支反力—轴向力—当量载荷—寿命\n\n[[00-川大855真题驱动复习总图]]",
+      "x": -460,
+      "y": 360,
+      "width": 420,
+      "height": 210,
+      "color": "1"
+    },
+    {
+      "id": "g1",
+      "type": "text",
+      "text": "## 核心图题\n齿轮/蜗杆：转向—旋向—三分力\n轴系：定位—压紧—装拆—热伸长\n\n[[00-川大855真题驱动复习总图]]",
+      "x": 0,
+      "y": 360,
+      "width": 420,
+      "height": 210,
+      "color": "1"
+    },
+    {
+      "id": "g2",
+      "type": "text",
+      "text": "## 基础模型\n循环参数—加载路径\n疲劳边界与屈服边界—安全系数\n\n[[00-川大855真题驱动复习总图]]",
+      "x": 460,
+      "y": 360,
+      "width": 420,
+      "height": 210,
+      "color": "1"
+    },
+    {
+      "id": "g3",
+      "type": "text",
+      "text": "## 原理参数\n齿轮失效/强度比较；带传力\n蜗杆效率/热平衡；滑动轴承油膜\n\n[[00-川大855真题驱动复习总图]]",
+      "x": -460,
+      "y": 640,
+      "width": 420,
+      "height": 210,
+      "color": "3"
+    },
+    {
+      "id": "g4",
+      "type": "text",
+      "text": "## 精确记忆\n键与花键、链传动\n材料/代号、总体设计短清单\n\n[[00-川大855真题驱动复习总图]]",
+      "x": 0,
+      "y": 640,
+      "width": 420,
+      "height": 210,
+      "color": "5"
+    },
+    {
+      "id": "f0",
+      "type": "file",
+      "file": "知识网络/真题驱动/01-历年真题证据索引.md",
+      "x": -460,
+      "y": 960,
+      "width": 420,
+      "height": 220
+    },
+    {
+      "id": "f1",
+      "type": "file",
+      "file": "知识网络/真题驱动/02-进阶变式与预测边界.md",
+      "x": 0,
+      "y": 960,
+      "width": 420,
+      "height": 220
+    },
+    {
+      "id": "f2",
+      "type": "file",
+      "file": "知识网络/真题驱动/03-两周模型训练与验收.md",
+      "x": 460,
+      "y": 960,
+      "width": 420,
+      "height": 220
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "main",
+      "fromSide": "bottom",
+      "toNode": "g0",
+      "toSide": "top"
+    },
+    {
+      "id": "e1",
+      "fromNode": "main",
+      "fromSide": "bottom",
+      "toNode": "g1",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "main",
+      "fromSide": "bottom",
+      "toNode": "g2",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "main",
+      "fromSide": "bottom",
+      "toNode": "g3",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "main",
+      "fromSide": "bottom",
+      "toNode": "g4",
+      "toSide": "top"
+    },
+    {
+      "id": "x0",
+      "fromNode": "g0",
+      "fromSide": "bottom",
+      "toNode": "f0",
+      "toSide": "top"
+    },
+    {
+      "id": "x1",
+      "fromNode": "g1",
+      "fromSide": "bottom",
+      "toNode": "f1",
+      "toSide": "top"
+    },
+    {
+      "id": "x2",
+      "fromNode": "g2",
+      "fromSide": "bottom",
+      "toNode": "f2",
+      "toSide": "top"
+    }
+  ]
+}
